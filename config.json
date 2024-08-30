@@ -5,21 +5,21 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": ""
+    "text": "Kay Yose"
   },
   "text": {
     "more": "",
-    "intro": "This is a graph on airports.",
-    "title": ""
+    "intro": "This Network helps search for a course of interest receive information on entry requirements (UCAS points and A-Level subject).",
+    "title": "University and Courses"
   },
   "legend": {
-    "edgeLabel": "Travel_link",
-    "colorLabel": "None",
-    "nodeLabel": "Airports"
+    "edgeLabel": "Course Offered by a University",
+    "colorLabel": "Ucas Points",
+    "nodeLabel": "University and Course"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "City",
+    "groupSelectorAttribute": "Label",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
