@@ -222,8 +222,8 @@ function configSigmaElements(config) {
 			e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
 			e.attr['grey'] = 0;
 
-			neighbors[e.source] = 3;
-			neighbors[e.target] = 3;
+			neighbors[e.source] = 1;
+			neighbors[e.target] = 1;
 		}
 		}).iterNodes(function(n){
 			if(!neighbors[n.id]){
@@ -254,8 +254,8 @@ function configSigmaElements(config) {
 			var neighbors = {};
 		sigInst.iterEdges(function(e){
 			if(nodes.indexOf(e.source)>=0 || nodes.indexOf(e.target)>=0){
-		    	neighbors[e.source] = 3;
-		    	neighbors[e.target] = 3;
+		    	neighbors[e.source] = 1;
+		    	neighbors[e.target] = 1;
 		  	}
 		}).iterNodes(function(n){
 		  	if(!neighbors[n.id]){
