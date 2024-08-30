@@ -5,21 +5,21 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Kay Yose"
+    "text": "Joe"
   },
   "text": {
-    "more": "",
-    "intro": "This Network helps search for a course of interest receive information on entry requirements (UCAS points and A-Level subject).",
-    "title": "University and Courses"
+    "more": "This network displays the Bwadu family\u0027s genealogy along with their lineage.",
+    "intro": "This network displays the Bwadu family\u0027s genealogy along with their lineage.",
+    "title": "Mbwadu Clan"
   },
   "legend": {
-    "edgeLabel": "Course Offered by a University",
-    "colorLabel": "Ucas Points",
-    "nodeLabel": "University and Course"
+    "edgeLabel": "Related",
+    "colorLabel": "",
+    "nodeLabel": "Person"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Label",
+    "groupSelectorAttribute": "Id",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
